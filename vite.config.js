@@ -14,7 +14,7 @@ const pages = {
 
   aloe: {
     file: 'pages/articles/aloe.html',
-    chunks: ['/javascripts/index.js', '/javascripts/all_styles.js']
+    chunks: ['/javascripts/all_styles.js']
   }
 };
 

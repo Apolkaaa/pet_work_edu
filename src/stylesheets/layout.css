@@ -15,3 +15,66 @@ h2 {
 h3 {
   font-weight: 500;
 }
+.article_header,
+.article_content {
+  max-width: 1000rem;
+  margin: 24rem auto;
+}
+.backlink {
+  color: #222;
+  padding: 3rem 6rem;
+  font-weight: 500;
+  transition: color ease 0.4s;
+}
+.backlink::before {
+  content: '← ';
+}
+.backlink:hover {
+  color: aqua;
+}
+.article_tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rem;
+  margin: 12rem 0;
+}
+.article_tag {
+  font-size: 13rem;
+  border-radius: 30rem;
+  border: 1rem solid #c4fff3;
+  padding: 6rem 14rem;
+  color: #222;
+  background-color: #f4fffd;
+}
+.article_title {
+  font-size: 60rem;
+  margin: 32rem 0 16rem 0;
+}
+.article_lead {
+  font-size: 20rem;
+  line-height: 1.5;
+  max-width: 560rem;
+  color: #222;
+}
+.article_content_img {
+  width: 100%;
+  border-radius: 18rem;
+  max-width: 720rem;
+  display: block;
+  margin: 0 auto;
+}
+img + .article_content_header {
+  margin-top: 128rem;
+}
+.article_content_header {
+  font-size: 32rem;
+  margin: 48rem 0 16rem;
+}
+.article_content_text,
+.article_content_list {
+  line-height: 1.5;
+}
+.article_content_list {
+  list-style-type: square;
+  margin-left: 16rem;
+}
